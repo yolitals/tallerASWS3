@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Taller AWS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container w3-green">
+<h1>Hosting a Static Website on Amazon S3 </h1> 
+  <p>Taller de Infaestructura como servicio en AWS</p> 
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>Amazon S3 Estandar</h2>
+    <p>Amazon S3 Estándar ofrece almacenamiento de objetos de alta durabilidad, disponibilidad y desempeño para datos a los que se obtiene acceso con frecuencia. Dada su baja latencia y alto desempeño, Estándar es ideal para numerosos casos de uso, como aplicaciones en la nube, sitios web dinámicos, distribución de contenidos, aplicaciones móviles y de juegos, y el análisis de big data. La gestión del ciclo de vida ofrece políticas configurables que permiten transferir objetos automáticamente al tipo de almacenamiento más adecuado.</p>
+    
+  </div>
+
+  <div class="w3-third">
+    <h2>Amazon S3 Estandar – Acceso poco frecuente
+</h2>
+    <p>Amazon S3 Estándar – Acceso poco frecuente (Estándar – IA) es un tipo de almacenamiento de Amazon S3 para datos a los que se obtiene acceso con poca frecuencia, pero que requieren un acceso rápido cuando es necesario. Estándar – IA ofrece la alta durabilidad, el alto desempeño y la baja latencia de Amazon S3 Estándar, con unos precios de almacenamiento por GB y de recuperación por GB económicos. La combinación del alto desempeño y los precios económicos convierten a Estándar – IA en la opción ideal para el almacenamiento a largo plazo, backup y como almacén de datos para la recuperación de desastres. 
+  </div>
+
+  <div class="w3-third">
+    <h2>Amazon Glacier</h2>
+    <p>Amazon Glacier es un servicio de almacenamiento seguro, duradero y de muy bajo costo para archivar datos. Pude almacenar la cantidad de datos que desee de manera fiable a precios competitivos o más económicos que las soluciones en las propias instalaciones. Para mantener los costos bajos pero seguir siendo apto para diversas necesidades de recuperación, Amazon Glacier proporciona tres opciones de acceso a los archivos, que van desde unos pocos minutos a varias horas. Amazon Glacier es compatible con políticas de ciclo de vida para la transferencia automática entre varios tipos de almacenamiento. Consulte la página de Amazon Glacier para obtener más detalles.</p>
+  </div>
+</div>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+
+<h2>Precios </h2>
+<table><thead><tr><th></th><th class="type">Almacenamiento estándar</th><th class="type">Almacenamiento estándar – acceso poco frecuente †</th><th class="type">Almacenamiento en Glacier</th></tr></thead><tbody class="body"><tr><td class="tier">Primeros 50&nbsp;TB/mes</td><td class="price">$0.023 por GB</td><td class="price">$0.0125 por GB</td><td class="price">$0.004 por GB</td></tr><tr><td class="tier">Siguientes 450&nbsp;TB/mes</td><td class="price">$0.022 por GB</td><td class="price">$0.0125 por GB</td><td class="price">$0.004 por GB</td></tr><tr><td class="tier">Más de 500&nbsp;TB/mes</td><td class="price">$0.021 por GB</td><td class="price">$0.0125 por GB</td><td class="price">$0.004 por GB</td></tr></tbody></table>
+</body>
+</html>
